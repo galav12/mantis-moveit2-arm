@@ -5,8 +5,8 @@
 - Move and build colcon workspace
 ```bash
 cd ~/ws_moveit/src
-git clone https://github.com/galav12/mantis-moveit2-arm.git
 ```
+- Move `moveit_project` package to `src` directory
 - Install missing packages
 ```bash
 rosdep install --from-paths . --ignore-src --rosdistro $ROS_DISTRO
@@ -18,9 +18,9 @@ colcon build
 ```
 - Start by launching initial launch file
 ```bash
-ros2 launch mantis-moveit2-arm moveit_project.launch.py
+ros2 launch moveit_project moveit_project.launch.py
 ```
 - Launch pick and place movement node
 ```bash
-ros2 launch mantis-moveit2-arm pick_and_place_project.launch.py
+ros2 launch moveit_project pick_and_place_project.launch.py
 ```
