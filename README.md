@@ -1,6 +1,6 @@
 # Mantis Moveit2 Robotic Arm
 
-###Instructions
+### Instructions
 - Follow [Getting Started](https://moveit.picknik.ai/main/doc/tutorials/getting_started/getting_started.html) to set up moveit2
 - Move and build colcon workspace
 ```bash
