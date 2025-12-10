@@ -65,4 +65,17 @@ ros2 launch mantis-moveit2-arm pick_and_place_project.launch.py scenario:=shapes
 ### Results
 
 Robot Arm URDF
+
 ![Robot Arm URDF](docs/robot_arm.png)
+
+Triangle Scenario Demo
+
+![Triangle Scenario Demo](docs/Mantis%20Demo%20Triangle.gif)
+
+Stack Scenario Demo
+
+![Triangle Scenario Demo](docs/Mantis%20Demo%20Stack.gif)
+
+Shapes Scenario Demo
+
+![Triangle Scenario Demo](docs/Mantis%20Demo%20Shapes.gif)
